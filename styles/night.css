@@ -1,0 +1,173 @@
+body {
+    background-color: #110038;
+}
+
+.main-bar {
+    box-shadow: 0 1px 0 0 #110038;
+    font-family: ChakraPetch-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.main-bar, .search-bar, .sggst-bar, .b1:hover .trend-bar {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.logo-night {
+    display: inline-block;
+}
+
+    button {
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #FFFFFF ;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    background-color:#EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+button:active, button:hover{
+    background: #ce36db;
+    outline: 1px dotted #110038;
+    outline-offset: -4px;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.dropdown {
+    border-left: solid 1px #110038;
+    height: 100%;
+    box-shadow: inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+.arrow-drop {
+    filter: invert(100%);
+}
+
+#myDropdown {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.dropdown-content > button {
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    outline: none;
+    
+}
+
+.dropdown-content > button:active {
+    color: #FFFFFF;
+    background: #2E32FB;
+    border: 1px solid rgba(51,53,143,0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+    outline: none;
+    }
+
+
+.link {
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.link::first-letter {
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #6b6183;
+}
+
+.link:hover {
+    outline: 1px dotted #FFFFFF;
+    outline-offset: -8px;
+}
+.search-bar {
+    box-shadow: inset -2px 0px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    font-family: ChakraPetch-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.search-box {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 0 0 0 #FFFFFF;
+}
+
+.search-input {
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.search-btn {
+    background-position: 10% 50%;
+    padding: 10px 19px;
+}
+
+.lupa {
+    filter: invert(100%);
+}
+
+.recommended .b1 {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.recommended .gif:hover {
+    outline: 1px dotted #110038;
+    outline-offset: -7px;
+}
+
+
+.seemr-btn {
+font-family: 'ChakraPetch-Regular', sans-serif;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-align: center;
+line-height: 18px;
+background: #2E32FB;
+border: 1px solid #4C2F99;
+box-shadow: inset -2px -2px 0 0 #2124B3, inset 1px 1px 0 0 #FFFFFF;
+  }
+
+  .seemr-btn:hover {
+    outline: 1px dotted #110038;
+    outline-offset: -4px;
+  }
+
+  .title {
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+  }
+
+  .trendy .b1 {
+      background: initial;
+  }
+
+  .trendy .gif {
+      background: #ce36db;
+  }
+.trendy .b1:hover {
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}

@@ -1,0 +1,179 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;   
+}
+   
+.main-bar {
+    height: 23px;
+    padding: 0 0 0 7px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+nav {
+    margin-top: 44px;
+    margin-right: 130.5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-day, .logo-night {
+    margin-top: -9px;
+    margin-right: 590px;
+  }
+
+
+nav button {
+    text-decoration: none;
+    margin-left: 16px;
+    display: flex;
+    height: 36px;
+    width: 102px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dropdown-content button {
+    width: 150px;
+    height: 36px;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+.gif-btn {
+    width: 144px;
+}
+
+.thm-btn {
+    width: 167px;
+    padding: 0;
+}
+.pick-thm {
+    padding: 0 25px 0 15px;
+}
+.dropdown {
+    width: 15px;
+    height: 34px;
+}
+
+.dropdown > img {
+    margin: 15px 12px 12px 11px;
+}
+
+.link {
+    position: relative;
+    padding: 9px 16px 0 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#myDropdown {
+    position: absolute;
+    z-index: 1;
+    width: 167px;
+    height: 102px;
+    margin-left: 16px;
+}
+
+.search {
+    margin-left: 40px;
+    margin-top: 2%;
+}
+
+.search-bar{
+    margin-left: 50px;
+    width: 1111px;
+    height: 20px;
+    padding: 8px 0 0 0.5%;
+   
+    
+}
+.search-box {
+    margin-left: 50px;
+    margin-bottom: 60px;
+    height: 75px;
+    width: 1118px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.search-input {
+    width: 85.5%;
+    height: 50%;
+    margin-left: 2%;
+    padding-left: 1%; 
+}
+
+.search-btn {
+    margin-left: 0.5%;
+    display: flex;
+}
+
+img.lupa{
+    margin-left: -15%;
+    margin-right: 15%;
+}
+
+
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 68px;
+    margin-right: 50px;
+
+
+}
+
+.title {
+    width: 1118px;
+    height: 32px;
+    margin-left: 90px;
+    margin-bottom: 17px;
+}
+
+.b1 {
+width: 266px;
+height: 266px;
+margin: 8px 8px 0 8px;
+}
+
+
+.sggst-bar, .b1:hover .trend-bar {
+    position: relative;
+    width: 258px;
+    height: 18px;
+    left: 4px;
+}
+
+.sggst-bar {
+    top: 3px;
+
+}
+
+.recommended .gif {
+    position: relative;
+    width: 270px;
+    height: 248px;
+    right: 2px;
+}
+.b1:hover .trend-bar {
+    top: 244px;
+}
+.seemr-btn {
+padding: 8px 8px;
+position: relative;
+left: 7px;
+bottom: 45px;
+}
+
+
+
