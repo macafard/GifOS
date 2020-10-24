@@ -10,7 +10,7 @@ body {
     color: #FFFFFF;
 }
 
-.logo-day {
+.logo-night {
     display: none;
 }
     button {
@@ -57,13 +57,16 @@ button:active, button:hover{
     
 }
 
-.dropdown-content > button:active {
+#day-btn {
     background: #FFF4FD;
     border: 1px solid #CCA6C9;
     box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
     outline: none;
     }
 
+#day-btn > span {
+    text-decoration: underline;
+}
 
 .link {
     font-family: ChakraPetch-Regular;

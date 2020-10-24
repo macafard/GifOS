@@ -13,8 +13,8 @@ body {
     background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
 }
 
-.logo-night {
-    display: inline-block;
+.logo-day {
+    display: none;
 }
 
     button {
@@ -65,13 +65,17 @@ button:active, button:hover{
     
 }
 
-.dropdown-content > button:active {
+#night-btn {
     color: #FFFFFF;
     background: #2E32FB;
     border: 1px solid rgba(51,53,143,0.20);
     box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
     outline: none;
     }
+
+#night-btn > span {
+    text-decoration: underline;
+}
 
 
 .link {

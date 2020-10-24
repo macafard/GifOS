@@ -6,8 +6,7 @@
     <title>GifOS</title>
     <link rel="stylesheet" href="./styles/layout.css">
     <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/day.css">
-    <link rel="stylesheet" href="./styles/night.css">
+    <link rel="stylesheet" href="./styles/day.css" id="theme-link">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,13 +19,13 @@
         <img src="./assets/gifOF_logo_dark.png"></div>
     </div>
     <button class="gif-btn">Crear guifos</button>
-    <div class="theme">
-    <button onclick="myFunction()" class="thm-btn">
-        <div class= "pick-thm">Elegir tema</div>
-    <div class="dropdown"><img class="arrow-drop" src="./assets/dropdown.svg"></div></button>
+    <div id="theme unhide" onclick="dropShowHide()">
+    <button class="thm-btn unhide">
+        <div class="pick-thm unhide">Elegir tema</div>
+    <div class="dropdown"><img class="arrow-drop unhide" src="./assets/dropdown.svg"></div></button>
         <div id="myDropdown" class="dropdown-content">
-          <button>Sailor Day</button>
-          <button>Sailor Night</button>
+          <button id="day-btn" onclick="clickDay()"><span>S</span>ailor Day</button>
+          <button id="night-btn" onclick="clickNight()"><span>S</span>ailor Night</button>
         </div>
     </div>
       </div>
@@ -94,6 +93,6 @@
     </div>
  </div>
 
-    
+    <script src="./scripts/gifos.js"></script>
 </body>
 </html>
